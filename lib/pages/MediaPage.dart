@@ -26,7 +26,7 @@ class _MediaScreenState extends State<MediaScreen> {
                   EdgeInsets.only(left: 32, right: 22, top: 28, bottom: 28),
               child: RichText(
                   text: TextSpan(
-                      text: "All Sessions",
+                      text: "All Sessions  ",
                       style: TextStyle(
                         color: Color.fromRGBO(55, 27, 52, 1),
                         fontSize: 18,
