@@ -1,7 +1,10 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:mindfullness/pages/Home.dart';
 import 'package:mindfullness/pages/MediaPage.dart';
 import 'package:mindfullness/pages/WellnessHub.dart';
+import 'package:mindfullness/pages/profileScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,9 +21,10 @@ class _MyAppState extends State<MyApp> {
   int selectedIndex = 0;
 
   final List<Widget> _pages = [
-    WellnessHub(),
+    Home(),
     MediaScreen(),
-    HomeScreen()
+    Messages(),
+    Profile()
     // Add your other pages here
   ];
 

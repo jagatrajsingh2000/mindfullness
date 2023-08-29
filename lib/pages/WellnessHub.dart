@@ -4,14 +4,14 @@
 
 import 'package:flutter/material.dart';
 
-class WellnessHub extends StatefulWidget {
-  const WellnessHub({super.key});
+class Home extends StatefulWidget {
+  const Home({super.key});
 
   @override
-  State<WellnessHub> createState() => _WellnessHubState();
+  State<Home> createState() => _HomeState();
 }
 
-class _WellnessHubState extends State<WellnessHub> {
+class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

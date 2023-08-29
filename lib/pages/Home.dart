@@ -44,14 +44,14 @@ final List<Emotion> demoData = [
       title: 'Relax'),
 ];
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class Messages extends StatefulWidget {
+  const Messages({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<Messages> createState() => _MessagesState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _MessagesState extends State<Messages> {
   int selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
